@@ -1,14 +1,12 @@
 package codebeers.vista;
 
 import codebeers.controlador.Controlador;
-
+import codebeers.exceptions.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.Set;
-
-import codebeers.exceptions.*;
 
 public class GestionOS{
 

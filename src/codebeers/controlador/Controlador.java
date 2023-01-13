@@ -1,7 +1,13 @@
 package codebeers.controlador;
 
-import codebeers.modelo.*;
-import codebeers.exceptions.*;
+import codebeers.exceptions.ElementoNoExiste;
+import codebeers.exceptions.OpcionNoValida;
+import codebeers.exceptions.PedidoYaPreparado;
+import codebeers.modelo.Cliente;
+import codebeers.modelo.Datos;
+import codebeers.modelo.Estandar;
+import codebeers.modelo.Premium;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Map;
@@ -46,35 +52,35 @@ public class Controlador {
     }
 
     public void addArticulo(String id, String descripcion, float pvp, float gastosEnvio, int tiempoPreparacion) {
-        Articulo articulo = new Articulo(id, descripcion, pvp, gastosEnvio, tiempoPreparacion);
+        codebeers.modelo.Articulo articulo = new codebeers.modelo.Articulo(id, descripcion, pvp, gastosEnvio, tiempoPreparacion);
         datos.addArticulo(articulo);
     }
 
     public ArrayList getArticulos() {
 
-        ArrayList<Articulo> articulos = datos.getArticulos();
+        ArrayList<codebeers.modelo.Articulo> articulos = datos.getArticulos();
         ArrayList<Map<String, String>> datosArticulos = new ArrayList<>();
 
-        for (Articulo articulo: articulos) {
+        for (codebeers.modelo.Articulo articulo: articulos) {
             datosArticulos.add(articulo.getDatosArticulo());
         }
 
         return datosArticulos;
     }
 
-    public void addPedido(String nif, String id, int unidades, LocalDateTime fechaHora) throws ElementoNoExiste{
+    public void addPedido(String nif, String id, int unidades, LocalDateTime fechaHora) throws ElementoNoExiste {
         Cliente cliente = datos.getClienteByNif(nif);
-        Articulo articulo = datos.getArticuloById(id);
-        Pedido pedido = new Pedido(cliente, articulo, unidades, fechaHora);
+        codebeers.modelo.Articulo articulo = datos.getArticuloById(id);
+        codebeers.modelo.Pedido pedido = new codebeers.modelo.Pedido(cliente, articulo, unidades, fechaHora);
         datos.addPedido(pedido);
     }
 
     public ArrayList getPedidos(String filtro, boolean enviado) {
 
-        ArrayList<Pedido> pedidos = datos.getPedidos(filtro, enviado);
+        ArrayList<codebeers.modelo.Pedido> pedidos = datos.getPedidos(filtro, enviado);
         ArrayList<Map<String, String>> datosPedidos = new ArrayList<>();
 
-        for (Pedido pedido: pedidos) {
+        for (codebeers.modelo.Pedido pedido: pedidos) {
             datosPedidos.add(pedido.getDatosPedido());
         }
 
