@@ -4,30 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="059e4179-e8d6-4d0d-80a6-c76a52216b3c" name="Changes" comment="Creado producto 2 de la asignatura POO con acceso a BBDD, está es la entrega definitiva del producto.&#10;Creado por el grupo de trabajo CodeBeers.">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="059e4179-e8d6-4d0d-80a6-c76a52216b3c" name="Changes" comment="Modifico los directorios codebeers.&quot;loquesea&quot; por packages para que funcione todo bien y no de errores de compilación.&#10;La entrega definitiva fue el anterior push.">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project2Codebeers/codebeers/controlador/Controlador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project2Codebeers/codebeers/controlador/Controlador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project2Codebeers/codebeers/vista/GestionOS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project2Codebeers/codebeers/vista/GestionOS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.controlador/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/controlador/Controlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.exceptions/ElementoNoExiste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/exceptions/ElementoNoExiste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.exceptions/ElementoYaExiste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/exceptions/ElementoYaExiste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.exceptions/ListaEstaVacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/exceptions/ListaEstaVacia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.exceptions/OnlineStoreException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/exceptions/OnlineStoreException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.exceptions/OpcionNoValida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/exceptions/OpcionNoValida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.exceptions/PedidoYaPreparado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/exceptions/PedidoYaPreparado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.modelo/Articulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/modelo/Articulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/modelo/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.modelo/Datos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/modelo/Datos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.modelo/Estandar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/modelo/Estandar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.modelo/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/modelo/Lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.modelo/ListaArticulos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/modelo/ListaArticulos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.modelo/ListaClientes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/modelo/ListaClientes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.modelo/ListaPedidos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/modelo/ListaPedidos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.modelo/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/modelo/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.modelo/Premium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/modelo/Premium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.vista/GestionOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/vista/GestionOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codebeers.vista/OnlineStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/vista/OnlineStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codebeers/modelo/Datos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/modelo/Datos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codebeers/vista/GestionOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codebeers/vista/GestionOS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +41,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -73,23 +54,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/ricardo/Documents/UOC-CFGS/FP058 POO con acceso a BBDD/Producto 2/Project2CodeBeers",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.22077923",
-    "project.structure.side.proportion": "0.18592966",
-    "settings.editor.selected.configurable": "Errors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ricardo/Documents/UOC-CFGS/FP058 POO con acceso a BBDD/Producto 2/Project2CodeBeers&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.22077923&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.18592966&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -157,7 +138,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Creado producto 2 de la asignatura POO con acceso a BBDD, está es la entrega definitiva del producto.&#10;Creado por el grupo de trabajo CodeBeers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creado producto 2 de la asignatura POO con acceso a BBDD, está es la entrega definitiva del producto.&#10;Creado por el grupo de trabajo CodeBeers." />
+    <MESSAGE value="Modifico los directorios codebeers.&quot;loquesea&quot; por packages para que funcione todo bien y no de errores de compilación.&#10;La entrega definitiva fue el anterior push." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifico los directorios codebeers.&quot;loquesea&quot; por packages para que funcione todo bien y no de errores de compilación.&#10;La entrega definitiva fue el anterior push." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
