@@ -7,35 +7,24 @@ import codebeers.modelo.Cliente;
 import codebeers.modelo.Datos;
 import codebeers.modelo.Estandar;
 import codebeers.modelo.Premium;
-
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Map;
 
 public class Controlador {
 
-    private Datos datos;
+    private final Datos datos;
 
     public Controlador() {
         datos = new Datos();
     }
 
     public void addCliente(String nombre, String domicilio, String nif, String email, String tipoCliente) throws OpcionNoValida {
-        Cliente cliente;
-        switch (tipoCliente) {
-            case "Estandar":
-            case "Estándar":
-            case "estandar":
-            case "estándar":
-                cliente = new Estandar(nombre, domicilio, nif, email);
-                break;
-            case "Premium":
-            case "premium":
-                cliente = new Premium(nombre, domicilio, nif, email);
-                break;
-            default:
-                throw new OpcionNoValida();
-        }
+        Cliente cliente = switch (tipoCliente) {
+            case "Estandar", "Estándar", "estandar", "estándar" -> new Estandar(nombre, domicilio, nif, email);
+            case "Premium", "premium" -> new Premium(nombre, domicilio, nif, email);
+            default -> throw new OpcionNoValida();
+        };
         datos.addCliente(cliente);
     }
 

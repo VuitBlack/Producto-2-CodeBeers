@@ -7,9 +7,9 @@ import java.util.ArrayList;
 
 public class Datos {
 
-    private ListaClientes clientes;
-    private ListaArticulos articulos;
-    private ListaPedidos pedidos;
+    private final ListaClientes clientes;
+    private final ListaArticulos articulos;
+    private final ListaPedidos pedidos;
 
     public Datos() {
         this.clientes = new ListaClientes();
